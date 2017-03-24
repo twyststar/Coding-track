@@ -10,7 +10,7 @@ _This is an quiz-like calculator that will help prospective Epicodus students fi
 
 ## Setup/Installation Requirements
 
-* _view at https://twyststar.github.io/coding-track_
+* _view at https://twyststar.github.io/Coding-track_
 * _OR_
 * _clone this repository to desktop_
 * _open index.html with browser_
