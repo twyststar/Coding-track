@@ -1,6 +1,10 @@
 body {
-  background-image: url(../img/lang.jpg);
+  /*background-image: url(../img/lang.jpg);*/
 }
 #main {
   margin-top: 2%;
+}
+img {
+  width: 100%;
+  height: auto;
 }
