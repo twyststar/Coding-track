@@ -15,3 +15,14 @@ img {
   height: auto;
   float: right;
 }
+.teal {
+  color: #76bcb6;
+}
+.right {
+  clear: both;
+}
+button {
+  margin-top: 3%;
+  margin-left: 3%;
+  float: right;
+}
