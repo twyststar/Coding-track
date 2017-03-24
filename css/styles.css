@@ -1,6 +1,13 @@
 .track {
   display: none;
 }
+.track img{
+  width: 25%;
+  height: auto;
+  float: right;}
+body {
+  background-color: #eaeaea;
+}
 #main {
   margin-top: 2%;
 }
@@ -9,11 +16,20 @@ img {
   height: auto;
   padding-top: 2%;
 }
-
-.track img{
-  width: 25%;
-  height: auto;
-  float: right;
+.banner{
+  background-image: url(../img/banner.jpeg);
+}
+.banner h1 {
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+.form-group {
+  clear: both;
+  padding-top: 2%;
+}
+strong {
+  text-decoration: underline;
 }
 .teal {
   color: #76bcb6;

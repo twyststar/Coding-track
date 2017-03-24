@@ -13,7 +13,7 @@
 <!--header and sidebar-->
         <!--sidebar-->
       <div class="row">
-        <div class="col-xs-2 well" id="sideBar">
+        <div class="col-xs-2" id="sideBar">
           <img src="img/epicodus.png" alt="Epicodus logo">
           <p>Here are some links! To the <span class="teal">Epicodus</span> homepage, language homepages, and some helpful articles.</p>
           <ul>
@@ -33,26 +33,25 @@
         </div>
 
         <div class="col-xs-10 well">
-          <div class="row">
-              <img src="img/banner.jpeg" alt="Epicodus full logo">
+          <div class="row banner">
+              <h1>choosing your <strong>first</strong> programming language track</h1>
           </div>
           <!--header-->
           <div class="row well">
             <div class="col-xs-6">
-              <h1>Choosing Your Track</h1>
+              <h2>It's Just The Beginning</h2>
               <blockquote class="blockquote">
                 <p>"Most modern programming languages have more similarities than differences, and <span class="teal">Epicodus</span> graduates often find themselves working in different languages than they studied in school. Back-end programmers often switch languages as they change jobs, or even as they build different types of software at the same job. So don't stress too much about making the right choice! That said, each language has found a bit of a niche, and depending on your interests, you might be attracted to one over another."</p>
                 <footer class="blockquote-footer"> Michael Kaiser-Nyman <cite><span class="teal">Epicodus</span> Founder</cite></footer>
               </blockquote>
 
-              <p>Deciding which coding language to learn at <span class="teal">Epicodus</span> is difficult! This page is designed to help. Take the quiz below to see which track might be a good fit for you, and follow the links on the left for lots more information. Happy coding!</p>
+              <p>Deciding which coding language to learn at <span class="teal">Epicodus</span> is difficult! This page is designed to help. Take the quiz below to see which track might be a good fit for you, and follow the links on the left for lots more information.<em>Happy coding</em>!</p>
             </div>
             <div class="col-xs-6">
               <img src="img/cloud.jpg" alt="Computer and language logos">
             </div>
           </div>
-
-              <!--quiz-->
+          <!--quiz-->
           <div class="row">
             <form id="formOne">
               <div class="col-xs-4">
@@ -115,9 +114,12 @@
                   <option value="3">I want FUNctional.</option>
                 </select>
               </div>
+              <div class="form-group">
+                <label for="name">Please enter your name</label>
+                <input id="name" class="form-control" type="text">
+              </div>
               <button type="submit" name="button">Submit</button>
               <h3 class="right">Your suggestion will appear below!</h3>
-              
             </form>
           </div>
         </div>
@@ -125,20 +127,19 @@
         <!--hidden until submit-->
         <div class="panel panel-info track" id="css">
           <div class="panel-heading">
-            <h2>CSS/Design</h2>
+            <h2><span class="nameHere"></span>, you should try CSS/Design!</h2>
           </div>
           <div class="panel-body">
             <img src="img/css.png" alt="css word art">
-            <p>A little bit on why you got this choice</p>
             <p>This CSS course building on the fundamentals from our Introduction to Programming Course. Students who learn CSS will be able to style web pages using complex, responsive layouts, while gaining exposure to the latest CSS tools, tricks, and features used every day by front-end developers and designers.</p>
             <p> After establishing solid programming fundamentals in CSS and JavaScript, this course introduces students to the vast world of Design. Web design is a process of conceptualizing, planning, and building a collection of electronic files that determine the layout, colors, text styles, structure, graphics, images, and use of interactive features that deliver pages to your site visitors.</p>
             <h3><a href="#sideBar">Checkout</a> our links to learn more!</h3>
           </div>
 
         </div>
-        <div class="panel panel-danger track" id="ruby">
+        <div class="panel panel-info track" id="ruby">
           <div class="panel-heading">
-            <h2>Ruby/Ruby on Rails</h2>
+            <h2><span class="nameHere"></span>, you should try Ruby/Ruby on Rails!</h2>
           </div>
           <div class="panel-body">
             <img src="img/ruby.jpg" alt="Ruby and rails logo art">
@@ -147,9 +148,9 @@
             <h3><a href="#sideBar">Checkout</a> our links to learn more!</h3>
           </div>
         </div>
-        <div class="panel panel-success track" id="java">
+        <div class="panel panel-info track" id="java">
           <div class="panel-heading">
-            <h2>Java/Android</h2>
+            <h2><span class="nameHere"></span>, you should try Java/Android!</h2>
           </div>
           <div class="panel-body">
             <img src="img/java.png" alt="android and java art">
@@ -160,18 +161,18 @@
         </div>
         <div class="panel panel-info track" id="cSharp">
           <div class="panel-heading">
-            <h2>C#/.net</h2>
+            <h2><span class="nameHere"></span>, you should try C#/.net!</h2>
           </div>
           <div class="panel-body">
             <img src="img/csharp.png" alt="c sharp and dot net logos">
             <p>The best GUI frameworks for Windows applications is Winforms and WPF together with .NET Framework. The best programming language to work with the .NET Framework and it's APIs is C#. C# is an elegant, simple, type-safe, object-oriented language that allows enterprise programmers to build a breadth of applications.</p>
             <p>This general-purpose language was originally designed by Microsoft to be used for developing apps on the Microsoft platform, and C# developers love the language for being pleasant to use and well-designed. If you want to build apps for the Microsoft platform, you should naturally learn C#. C# is often the recommended language to use when making games through the Unity Game engine.</p>
-            <<h3><a href="#sideBar">Checkout</a> our links to learn more!</h3>
+            <h3><a href="#sideBar">Checkout</a> our links to learn more!</h3>
           </div>
         </div>
         <div class="panel panel-info track" id="PHP">
           <div class="panel-heading">
-            <h2>PHP/Drupal</h2>
+            <h2><span class="nameHere">, you should try PHP/Drupal!</span></h2>
           </div>
           <div class="panel-body">
             <img src="img/php.png" alt="php and drupal logos">

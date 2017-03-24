@@ -9,6 +9,8 @@ $(document).ready(function(){
     var inputFive = parseInt($("#quest5").val());
     var inputSix = parseInt($("#quest6").val());
     var total = (inputOne + inputTwo + inputThree + inputFour + inputFive + inputSix);
+    var myName = $("input#name").val();
+    $(".nameHere").text(myName);
 
     var result;
       if (total <= 3){
