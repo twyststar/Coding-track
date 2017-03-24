@@ -12,15 +12,15 @@ $(document).ready(function(){
 
     var result;
       if (total <= 3){
-        alert("CSS!");
+        $("#css").show();
       } else if (total <= 8){
         $("#ruby").show();
       } else if (total <= 14){
-        alert("Java!");
+        $("#java").show();
       } else if (total <= 17){
-        alert("C#!");
+        $("#cSharp").show();
       } else {
-        alert("PHP");
+        $("#PHP").show();
       }
   });
 });

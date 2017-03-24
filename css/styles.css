@@ -1,4 +1,6 @@
-
+.track {
+  display: none;
+}
 #main {
   margin-top: 2%;
 }
@@ -8,6 +10,8 @@ img {
   padding-top: 2%;
 }
 
-.track {
-  background-color: yellow;
+.track img{
+  width: 25%;
+  height: auto;
+  float: right;
 }
