@@ -2,6 +2,7 @@ $(document).ready(function(){
   $("#formOne").submit(function(event){
     event.preventDefault()
     $(".track").hide();
+
     var inputOne = parseInt($("#quest1").val());
     var inputTwo = parseInt($("#quest2").val());
     var inputThree = parseInt($("#quest3").val());

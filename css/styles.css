@@ -5,6 +5,7 @@
   width: 25%;
   height: auto;
   float: right;}
+
 body {
   background-color: #eaeaea;
 }
@@ -16,6 +17,7 @@ img {
   height: auto;
   padding-top: 2%;
 }
+
 .banner{
   background-image: url(../img/banner.jpeg);
 }
@@ -24,10 +26,17 @@ img {
   text-align: center;
   color: white;
 }
+
 .form-group {
   clear: both;
   padding-top: 2%;
 }
+button {
+  margin-top: 3%;
+  margin-left: 3%;
+  float: right;
+}
+
 strong {
   text-decoration: underline;
 }
@@ -36,9 +45,4 @@ strong {
 }
 .right {
   clear: both;
-}
-button {
-  margin-top: 3%;
-  margin-left: 3%;
-  float: right;
 }
