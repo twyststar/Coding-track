@@ -11,86 +11,9 @@
   <body>
     <div class="container">
 <!--header and sidebar-->
-      <div class="row well">
-        <div class="col-md-10">
-          <div class="row">
-            <div class="col-xs-6">
-              <h1>Choosing Your Track</h1>
-              <p>Deciding which coding language to learn is difficult! This page is designed to help. Take the quiz below to see which track might be a good fit for you, and follow the links on the left for lots more information. Happy coding!</p>
-            </div>
-            <div class="col-xs-6">
-              <img src="img/languages.jpeg" alt="Computer and language logos">
-            </div>
-          </div>
-          <!--quiz-->
-      <div class="row">
-        <form class="" id="formOne">
-          <div class="col-xs-4 well">
-            <img src="img/languages.jpeg" alt="">
-            <p>How much experience do you have?</p>
-            <select class="form-control" id="quest1">
-              <option value="1">None!</option>
-              <option value="2">I've tinkered</option>
-              <option value="3">I'm familiar with code</option>
-              <option value="4">I know some language already</option>
-            </select>
-          </div>
-          <div class="col-xs-4 well">
-            <img src="img/languages.jpeg" alt="">
-            <p>Do you like making things look really neat?</p>
-            <select class="form-control" id="quest2">
-              <option value="0">I love it!</option>
-              <option value="1">I like things to look nice</option>
-              <option value="2">I'm not great with style</option>
-              <option value="3">Who cares as long as it works?</option>
-            </select>
-          </div>
-          <div class="col-xs-4 well">
-            <img src="img/languages.jpeg" alt="">
-            <p>What would you like to work on?</p>
-            <select class="form-control" id="quest3">
-              <option value="0">Beautiful websites</option>
-              <option value="1">Interactive websites</option>
-              <option value="2">Games!</option>
-              <option value="3">Console Games!!!</option>
-            </select>
-          </div>
-          <div class="col-xs-4 well">
-            <img src="img/languages.jpeg" alt="">
-            <p>Where do you see yourself working?</p>
-            <select class="form-control" id="quest4">
-              <option value="2">Web company like Amazon or Google</option>
-              <option value="0">Web design department</option>
-              <option value="3">Software development company</option>
-              <option value="1">Start-up or start my own</option>
-            </select>
-          </div>
-          <div class="col-xs-4 well">
-            <img src="img/languages.jpeg" alt="">
-            <p>All about the money???</p>
-            <select class="form-control" id="quest5">
-              <option value="1">YES! Even with some risk.</option>
-              <option value="2">Yes.</option>
-              <option value="3">Of course, but stability too.</option>
-              <option value="4">I just love computers.</option>
-            </select>
-          </div>
-          <div class="col-xs-4 well">
-            <img src="img/languages.jpeg" alt="">
-            <p>...or all about the FUN??</p>
-            <select class="form-control" id="quest6">
-              <option value="0">Fun and easy please!</option>
-              <option value="1">Fun!</option>
-              <option value="2">I think a challenge IS fun.</option>
-              <option value="3">I want FUNctional.</option>
-            </select>
-          </div>
-          <button type="submit" name="button">Submit</button>
-        </form>
-      </div>
-        </div>
         <!--sidebar-->
-        <div class="col-md-2">
+      <div class="row">
+        <div class="col-xs-2 well" id="sideBar">
           <img src="" alt="">
           <p>Here are some links! To the Epicodus homepage, language homepages, and some helpful articles.</p>
           <ul>
@@ -104,8 +27,121 @@
             <li><a href="#">link</a></li>
           </ul>
         </div>
-      </div>
 
+        <div class="col-xs-10 well">
+
+          <!--header-->
+          <div class="row well">
+            <div class="col-xs-6">
+              <h1>Choosing Your Track</h1>
+              <p>Deciding which coding language to learn is difficult! This page is designed to help. Take the quiz below to see which track might be a good fit for you, and follow the links on the left for lots more information. Happy coding!</p>
+            </div>
+            <div class="col-xs-6">
+              <img class="topImage" src="img/languages.jpeg" alt="Computer and language logos">
+            </div>
+          </div>
+
+              <!--quiz-->
+          <div class="row">
+            <form class="" id="formOne">
+              <div class="col-xs-4">
+                <img src="img/languages.jpeg" alt="">
+                <p>How much experience do you have?</p>
+                <select class="form-control" id="quest1">
+                  <option value="1">None!</option>
+                  <option value="2">I've tinkered</option>
+                  <option value="3">I'm familiar with code</option>
+                  <option value="4">I know some language already</option>
+                </select>
+              </div>
+              <div class="col-xs-4">
+                <img src="img/languages.jpeg" alt="">
+                <p>Do you like making things look really neat?</p>
+                <select class="form-control" id="quest2">
+                  <option value="0">I love it!</option>
+                  <option value="1">I like things to look nice</option>
+                  <option value="2">I'm not great with style</option>
+                  <option value="3">Who cares as long as it works?</option>
+                </select>
+              </div>
+              <div class="col-xs-4">
+                <img src="img/languages.jpeg" alt="">
+                <p>What would you like to work on?</p>
+                <select class="form-control" id="quest3">
+                  <option value="0">Beautiful websites</option>
+                  <option value="1">Interactive websites</option>
+                  <option value="2">Games!</option>
+                  <option value="3">Console Games!!!</option>
+                </select>
+              </div>
+              <div class="col-xs-4">
+                <img src="img/languages.jpeg" alt="">
+                <p>Where do you see yourself working?</p>
+                <select class="form-control" id="quest4">
+                  <option value="2">Web company like Amazon or Google</option>
+                  <option value="0">Web design department</option>
+                  <option value="3">Software development company</option>
+                  <option value="1">Start-up or start my own</option>
+                </select>
+              </div>
+              <div class="col-xs-4">
+                <img src="img/languages.jpeg" alt="">
+                <p>All about the money???</p>
+                <select class="form-control" id="quest5">
+                  <option value="1">YES! Even with some risk.</option>
+                  <option value="2">Yes.</option>
+                  <option value="3">Of course, but stability too.</option>
+                  <option value="4">I just love computers.</option>
+                </select>
+              </div>
+              <div class="col-xs-4">
+                <img src="img/languages.jpeg" alt="">
+                <p>...or all about the FUN??</p>
+                <select class="form-control" id="quest6">
+                  <option value="0">Fun and easy please!</option>
+                  <option value="1">Fun!</option>
+                  <option value="2">I think a challenge IS fun.</option>
+                  <option value="3">I want FUNctional.</option>
+                </select>
+              </div>
+              <button type="submit" name="button">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+        <!--hidden until submit-->
+        <div class="panel panel-warning track" id="css">
+          <h2>CSS/Design</h2>
+          <img class="right" src="" alt="">
+          <p>A little bit on why you got this choice</p>
+          <p>a little bit on the language and where it's used</p>
+        </div>
+        <div class="panel panel-danger track" id="ruby">
+          <h2>Ruby/Ruby on Rails</h2>
+          <img class="right" src="" alt="">
+          <p>A little bit on why you got this choice</p>
+          <p>a little bit on the language and where it's used</p>
+        </div>
+        <div class="panel panel-success track" id="java">
+          <h2>Java/Android</h2>
+          <img class="right" src="" alt="">
+          <p>A little bit on why you got this choice</p>
+          <p>a little bit on the language and where it's used</p>
+        </div>
+        <div class="panel panel-info track" id="C\#">
+          <h2>C#/.net</h2>
+          <img class="right" src="" alt="">
+          <p>A little bit on why you got this choice</p>
+          <p>a little bit on the language and where it's used</p>
+        </div>
+        <div class="panel panel-info track" id="PHP">
+          <h2>Track Name</h2>
+          <img class="right" src="" alt="">
+          <p>A little bit on why you got this choice</p>
+          <p>a little bit on the language and where it's used</p>
+        </div>
+
+      </div>
     </div>
   </body>
 </html>
